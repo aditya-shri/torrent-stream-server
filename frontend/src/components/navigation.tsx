@@ -24,7 +24,6 @@ export function NavigationComponent(): JSX.Element {
                     <div className="navbar-wrapper">
                         <Navbar.Brand as={Link} to="/">
                             Torrent Stream Server{' '}
-                            <small className="text-muted">v{process.env.REACT_APP_VERSION}</small>
                         </Navbar.Brand>
                     </div>
                     <button
